@@ -1,0 +1,39 @@
+{
+  "name": "harold-wheels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harold1024/harold-wheels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harold1024/harold-wheels/issues"
+  },
+  "homepage": "https://github.com/harold1024/harold-wheels#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "open-browser-webpack-plugin": "0.0.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.11.0",
+    "wheels": "0.0.1"
+  },
+  "dependencies": {
+    "style-loader": "^1.2.1"
+  }
+}
